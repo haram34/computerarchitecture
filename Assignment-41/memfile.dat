@@ -1,0 +1,4 @@
+20080005   // addi $t0, $zero, 5
+20090005   // addi $t1, $zero, 5
+1109FFFD   // beq  $t0, $t1, -3 (jump back to 1st instruction)
+200A0099   // addi $t2, $zero, 0x99 (skipped)
