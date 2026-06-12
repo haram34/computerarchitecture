@@ -1,0 +1,4 @@
+2008000A // addi $t0, $0, 10
+20090005 // addi $t1, $0, 5
+1509FFFD // bne $t0, $t1, -3 (10 ≠ 5, taken — jump back to 0x0)
+200A0099 // addi $t2, $0, 0x99 (CANARY — must never execute)
